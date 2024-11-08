@@ -1,0 +1,44 @@
+{
+  "NavLang": "Connexion" , 
+  "HeroPrincple" : "Find thousands of providers and solve your problem in seconds" , 
+  "Login" : "Login Now" , 
+  "Category" : "Find Online Providers in Any Subject" ,
+  "Verifiy" :"Be Verified",
+  "desc" : "Join experienced Providers on this platform.",
+  "descc" : "Enter your personal details and start journey with us",
+  "salam" : "Hello, Again" ,
+  "happy" : "We are happy to have you back." , 
+  "Categories" : [
+    { 
+      "name": "Engineering",
+      "color": "#0063ff",
+      "delay": 0.2
+    },
+    {
+      "name": "English",
+      
+      "color": "#00c986",
+      "delay": 0.3
+    },
+    {
+      "name": "Programming",
+      "color": "#922aee",
+      "delay": 0.4
+    },
+    {
+      "name": "Science",
+      "color": "#ea7516",
+      "delay": 0.5
+    },
+    {
+      "name": "History",
+      "color": "#075267",
+      "delay": 0.6
+    },
+    {
+      "name": "Psychology",
+      "color": "#986d1d",
+      "delay": 0.7
+    }
+  ]
+}

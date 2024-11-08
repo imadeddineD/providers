@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-group {
+    margin-bottom: 20px;
+  }
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: #F8F9FA;
+    color: #333;
+  }
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 8px #bbb;
+  }
