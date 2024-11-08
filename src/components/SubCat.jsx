@@ -9,6 +9,7 @@ import NavBar from './NavBar';
 import { Modal } from './Modal';
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { RiCloseCircleLine } from "react-icons/ri";
+import toast from 'react-hot-toast';
 
  i18n
    .use(initReactI18next).use(LanguageDetector).use(HttpApi) 
