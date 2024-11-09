@@ -14,7 +14,7 @@ const NavBar = ({ lng , label }) => {
   return (
     <nav className="fixed top-4 left-0 right-0 z-50 m-2">
       <div className="text-neutral-800 bg-white/60 backdrop-blur-md max-w-7xl mx-auto px-4 py-3 flex justify-between items-center rounded-xl border border-neutral-400">
-        <img src={logo} alt="logo" width={50} height={24} />
+        <a href="/"><img src={logo} alt="logo" width={50} height={24} /></a>
         <div className="flex justify-center items-center gap-4">
           <div className="flex space-x-4 items-center">
             <a
