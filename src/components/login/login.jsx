@@ -66,7 +66,7 @@ const Login = () => {
       <div className="flex flex-col md:flex-row border rounded-3xl p-3 bg-white shadow-lg max-w-4xl">
         
         {/* Left Box */}
-        <div className="hidden md:flex flex-col justify-center items-center bg-blue-600 p-8 rounded-2xl text-center">
+        <div className="hidden md:flex flex-col justify-center items-center bg-[#2d9bff] p-8 rounded-2xl text-center">
           <img
             src={verified}
             alt="Featured"
@@ -109,7 +109,7 @@ const Login = () => {
 
           {/* Login Button */}
           <div>
-            <button className="w-full bg-blue-700 text-white py-4 rounded-lg text-lg hover:bg-secondary/70 transition" onClick={handleClick}>
+            <button className="w-full bg-[#2d9bff] text-white py-4 rounded-lg text-lg hover:bg-secondary/70 transition" onClick={handleClick}>
               {log}
             </button>
           </div>
@@ -118,7 +118,7 @@ const Login = () => {
           <div className="text-center mt-4">
             <small>
               {acc}{" "}
-              <a href="/auth/register" className="text-blue-700 hover:underline">
+              <a href="/auth/register" className="text-[#2d9bff] hover:underline">
                 {sign}
               </a>
             </small>

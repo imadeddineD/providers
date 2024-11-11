@@ -8,7 +8,7 @@ const Hero = ({label , login}) => {
                 {label}
             </div>
             <div className="mt-4 space-x-4">
-                <a href="/auth/login" className="inline-block bg-blue-600 hover:bg-blue-500 text-white py-3 px-6 rounded-lg font-medium transition-all duration-75 ease-linear">
+                <a href="/auth/login" className="inline-block bg-[#2d9bff] hover:bg-blue-500 text-white py-3 px-6 rounded-lg font-medium transition-all duration-75 ease-linear">
                     {login}
                 </a>
             </div>

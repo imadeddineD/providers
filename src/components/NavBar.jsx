@@ -19,7 +19,7 @@ const NavBar = ({ lng , label }) => {
           <div className="flex space-x-4 items-center">
             <a
               href="/auth/login"
-              className="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-500 transition-all duration-75 ease-linear flex justify-between gap-2 items-center font-[500]"
+              className="bg-[#2d9bff] text-white py-2 px-4 rounded-lg hover:bg-blue-500 transition-all duration-75 ease-linear flex justify-between gap-2 items-center font-[500]"
             >
               <span className="hidden sm:inline-block">{label}</span> <CiLogin className="text-[22px]" />
             </a>
