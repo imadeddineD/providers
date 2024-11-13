@@ -12,6 +12,7 @@ import arab from "../../assets/ar.png"
 import eng from "../../assets/en.png"
 import Dropdown from 'react-dropdown';
 import 'react-dropdown/style.css';
+import logo from '../../assets/logo.png'
 
 
 i18n
@@ -81,8 +82,12 @@ const Login = () => {
 
 
   return (
-    <div className="flex justify-center items-center bg-gray-200 py-8">
+    <div className="flex flex-col justify-center items-center bg-gray-200 py-8">
       {/* Login Container */}
+
+      
+
+
       <div className="flex flex-col md:flex-row border rounded-3xl p-3 bg-white shadow-lg max-w-4xl">
         
         {/* Left Box */}
@@ -102,6 +107,12 @@ const Login = () => {
 
         {/* Right Box */}
         <div className="flex flex-col justify-center p-8 space-y-4 md:w-1/2">
+
+        <div className="flex justify-center items-center">
+        <a href="/">
+        <img src={logo} alt="logo" className=" w-16 h-16 cursor-pointer" /></a>
+        </div>
+        
           <div className="mb-6">
             <h2 className="text-3xl font-bold">{t('salam')}</h2>
             <p className="text-gray-500">{t('descc')}</p>

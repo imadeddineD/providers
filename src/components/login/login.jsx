@@ -9,6 +9,7 @@ import HttpApi from 'i18next-http-backend';
 import cookies from "js-cookie";
 import arab from "../../assets/ar.png"
 import eng from "../../assets/en.png"
+import logo from "../../assets/logo.png"
 
 i18n
 .use(initReactI18next).use(LanguageDetector).use(HttpApi) 
@@ -82,6 +83,11 @@ const Login = () => {
 
         {/* Right Box */}
         <div className="flex flex-col justify-center p-8 space-y-4 md:w-1/2">
+
+        <div className="flex justify-center items-center">
+        <a href="/">
+        <img src={logo} alt="logo" className=" w-16 h-16 cursor-pointer" /></a>
+        </div>
           <div className="mb-6">
             <h2 className="text-3xl font-bold">{t('salam')}</h2>
             <p className="text-gray-500">{t('happy')}</p>
