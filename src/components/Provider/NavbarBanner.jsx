@@ -14,7 +14,7 @@ const NavbarBanner = ({lng}) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className="bg-red-500 text-sm text-center text-white font-semibold p-2 hidden lg:block relative"
+        className="bg-red-500 text-sm text-center text-white font-semibold p-2 block relative"
       >
         {activate}
         <a href="/pricing" className=" mx-2 font-bold underline text-blue-700">
