@@ -14,7 +14,6 @@ import logo from "../../assets/logo.png"
 i18n
 .use(initReactI18next).use(LanguageDetector).use(HttpApi) 
 .init({
-
   fallbackLng: "en",
   detection : {
     order :[
